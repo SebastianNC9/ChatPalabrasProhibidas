@@ -4,7 +4,7 @@ Esta es una aplicación desarrollada con Spring Boot que permite al usuario escr
 
 - La terminal
 
-Además, implementa un **Aspecto (AOP)** que se encarga de detectar y sustituir las palabras prohibidas, siguiendo buenas prácticas de desacoplamiento.
+Además, implementa un **Aspecto (AOP)** que se encarga de detectar y sustituir las palabras prohibidas.
 
 ---
 
@@ -25,6 +25,6 @@ Además, implementa un **Aspecto (AOP)** que se encarga de detectar y sustituir 
 - Las palabras pueden ser sustituidas por otras palabras o caracteres.
 - Si un mensaje contiene más de 3 palabras prohibidas, se muestra una advertencia.
 - AOP se usa para interceptar el servicio y aplicar el filtrado.
-- Se usa desde terminal
+- Se usa desde terminal.
 
 ---
